@@ -30,6 +30,7 @@ namespace AgendaTelefonica
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+            containerRegistry.RegisterForNavigation<AddContact, AddContactViewModel>();
         }
     }
 }

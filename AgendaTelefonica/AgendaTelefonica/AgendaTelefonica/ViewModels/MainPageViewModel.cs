@@ -9,11 +9,21 @@ using System.Text;
 namespace AgendaTelefonica.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
-    {
+    { 
+        private INavigationService _navigationService;
+        public DelegateCommand btn_AddContact { get; set; }
         public MainPageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
-            Title = "Main Page";
+            _navigationService = navigationService;
+            Title = "Telephone Book";
+            btn_AddContact = new DelegateCommand(AddContactViews);
+        }
+
+         private void AddContactViews()
+        {
+            //TODO: navigate for views AddContact
+             _navigationService.NavigateAsync("AddContact");
         }
     }
 }
