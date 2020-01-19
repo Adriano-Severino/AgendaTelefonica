@@ -4,12 +4,16 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              xmlns:mvvm="http://prismlibrary.com"
              mvvm:ViewModelLocator.AutowireViewModel="True"
-             x:Class="AgendaTelefonica.Views.AddContact">
+             x:Class="AgendaTelefonica.Views.AddContact"
+             Title="{Binding Title}">
 
 
      <StackLayout VerticalOptions="CenterAndExpand">
-    <Entry Text="{Binding TextToSay}" />
-    <Button Text="Speak" Command="{Binding SpeakCommand}"/>
+         <Label Text="Name"></Label>
+         <Entry Text="{Binding addName}" />
+          <Label Text="Telephone"></Label>
+         <Entry Text="{Binding addTelephone}" />
+    <Button Text="Add contact" Command="{Binding AddContactCommand}"/>
   </StackLayout>
   
 </ContentPage>

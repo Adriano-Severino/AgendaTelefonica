@@ -23,7 +23,7 @@ namespace AgendaTelefonica
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            await NavigationService.NavigateAsync("NavigationPage/PrismMasterDetailPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -31,6 +31,9 @@ namespace AgendaTelefonica
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<AddContact, AddContactViewModel>();
+            containerRegistry.RegisterForNavigation<PrismMasterDetailPage, PrismMasterDetailPageViewModel>();
+            containerRegistry.RegisterForNavigation<Details, DetailsViewModel>();
+            containerRegistry.RegisterForNavigation<About, AboutViewModel>();
         }
     }
 }

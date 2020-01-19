@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>31e6402e-0407-4419-a6c3-7c6d18576017</PackageIdentityName>
     <PackageIdentityPublisher>CN=BLagunas</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>639B07D04D12DFB8BCE2499F5E63B617F436401D8A8D6A98E9BB3EB09760FFD4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>31e6402e-0407-4419-a6c3-7c6d18576017_1.0.0.0_x86__mm77914cpbf52</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>31e6402e-0407-4419-a6c3-7c6d18576017_mm77914cpbf52!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-18T15:14:54.970</Modified>
+      <Modified>2020-01-19T17:41:22.381</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\AgendaTelefonica.UWP.exe">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\AgendaTelefonica.UWP.exe">
       <PackagePath>entrypoint\AgendaTelefonica.UWP.exe</PackagePath>
-      <Modified>2020-01-18T15:14:53.308</Modified>
+      <Modified>2020-01-19T17:41:06.542</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Adria\.nuget\packages\dryioc.dll\4.0.7\lib\netstandard2.0\DryIoc.dll">
       <PackagePath>DryIoc.dll</PackagePath>
@@ -78,9 +78,9 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2020-01-10T01:50:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\bin\Debug\netstandard2.0\AgendaTelefonica.dll">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica\bin\Debug\netstandard2.0\AgendaTelefonica.dll">
       <PackagePath>AgendaTelefonica.dll</PackagePath>
-      <Modified>2020-01-18T15:14:43.970</Modified>
+      <Modified>2020-01-19T17:40:58.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -90,59 +90,59 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-01-10T01:50:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-01-16T22:28:29.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2020-01-16T22:28:29.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-16T22:28:29.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-16T22:28:29.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-16T22:28:29.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-16T22:28:29.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-16T22:28:29.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-01-16T22:28:29.701</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\AgendaTelefonica.UWP.xr.xml">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\AgendaTelefonica.UWP.xr.xml">
       <PackagePath>AgendaTelefonica.UWP.xr.xml</PackagePath>
       <Modified>2020-01-16T22:35:43.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2020-01-18T15:14:52.656</Modified>
+      <Modified>2020-01-19T17:41:06.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-01-18T15:14:52.657</Modified>
+      <Modified>2020-01-19T17:41:06.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-01-18T15:14:52.657</Modified>
+      <Modified>2020-01-19T17:41:06.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.16299.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -156,13 +156,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2019-06-07T14:59:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-01-16T22:35:44.683</Modified>
+      <Modified>2020-01-19T17:41:08.579</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\Core\AgendaTelefonica.UWP.exe">
+    <AppxPackagedFile Include="F:\Desenvolvimento\AgendaTelefonica\AgendaTelefonica.UWP\bin\x86\Debug\Core\AgendaTelefonica.UWP.exe">
       <PackagePath>AgendaTelefonica.UWP.exe</PackagePath>
-      <Modified>2020-01-18T15:14:54.965</Modified>
+      <Modified>2020-01-19T17:41:22.373</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

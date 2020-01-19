@@ -12498,11 +12498,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.UWP\\AgendaTelefonica.UWP.csproj",
+      "projectUniqueName": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica.UWP\\AgendaTelefonica.UWP.csproj",
       "projectName": "AgendaTelefonica.UWP",
-      "projectPath": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.UWP\\AgendaTelefonica.UWP.csproj",
+      "projectPath": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica.UWP\\AgendaTelefonica.UWP.csproj",
       "packagesPath": "C:\\Users\\Adria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.UWP\\obj\\",
+      "outputPath": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -12524,8 +12524,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj": {
-              "projectPath": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj"
+            "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj": {
+              "projectPath": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj"
             }
           }
         }

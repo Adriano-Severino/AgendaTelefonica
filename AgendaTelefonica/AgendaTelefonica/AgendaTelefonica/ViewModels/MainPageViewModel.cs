@@ -16,7 +16,7 @@ namespace AgendaTelefonica.ViewModels
             : base(navigationService)
         {
             _navigationService = navigationService;
-            Title = "Telephone Book";
+            Title = "Telephone book";
             btn_AddContact = new DelegateCommand(AddContactViews);
         }
 

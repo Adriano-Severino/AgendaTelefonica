@@ -3,27 +3,39 @@ using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Prism.Navigation;
 
 namespace AgendaTelefonica.ViewModels
 {
-    public class AddContactViewModel : BindableBase
+    public class AddContactViewModel : ViewModelBase
     {
 
-        private string _textToSay = "Add Contact";
-        public string TextToSay
+        private string _addName = "Contact name";
+        private string _addTelephone = "Enter telephone";
+        public string addName
         {
-            get { return _textToSay; }
-            set { SetProperty(ref _textToSay, value); }
+            get { return _addName; }
+             
+            set { SetProperty(ref _addName, value); }
         }
 
-        public DelegateCommand SpeakCommand { get; set; }
-
-        public AddContactViewModel()
+        public string addTelephone
         {
-            SpeakCommand = new DelegateCommand(Speak);
+            get { return _addTelephone; }
+
+            set { SetProperty(ref _addTelephone, value); }
         }
 
-        private void Speak()
+        public DelegateCommand AddContactCommand { get; set; }
+
+        public AddContactViewModel(INavigationService navigationService)
+            : base(navigationService)
+        {
+            AddContactCommand = new DelegateCommand(AddContact);
+            Title = "Telephone book contact";
+        }
+
+        private void AddContact()
         {
             //TODO: call service
         }

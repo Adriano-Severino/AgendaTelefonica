@@ -1,7 +1,6 @@
 C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\bin\Debug\netstandard2.0\AgendaTelefonica.deps.json
 C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\bin\Debug\netstandard2.0\AgendaTelefonica.dll
 C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\bin\Debug\netstandard2.0\AgendaTelefonica.pdb
-C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\obj\Debug\netstandard2.0\AgendaTelefonica.csprojAssemblyReference.cache
 C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\obj\Debug\netstandard2.0\AgendaTelefonica.AssemblyInfoInputs.cache
@@ -10,3 +9,7 @@ C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\A
 C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\obj\Debug\netstandard2.0\AgendaTelefonica.dll
 C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\obj\Debug\netstandard2.0\AgendaTelefonica.pdb
 C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\obj\Debug\netstandard2.0\Views\AddContact.xaml.g.cs
+C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\obj\Debug\netstandard2.0\Views\PrismMasterDetailPage.xaml.g.cs
+C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\obj\Debug\netstandard2.0\Views\Details.xaml.g.cs
+C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\obj\Debug\netstandard2.0\Views\Master.xaml.g.cs
+C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\obj\Debug\netstandard2.0\AgendaTelefonica.csprojAssemblyReference.cache

@@ -1,1 +1,0 @@
-C:\Users\Adria\source\repos\Adriano-Severino\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica\AgendaTelefonica.UWP\AgendaTelefonica.UWP.csproj;x86

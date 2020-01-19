@@ -1227,11 +1227,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj",
+      "projectUniqueName": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj",
       "projectName": "AgendaTelefonica",
-      "projectPath": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj",
+      "projectPath": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj",
       "packagesPath": "C:\\Users\\Adria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\obj\\",
+      "outputPath": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

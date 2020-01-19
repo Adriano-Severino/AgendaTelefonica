@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.Android\\AgendaTelefonica.Android.csproj": {}
+    "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica.Android\\AgendaTelefonica.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.Android\\AgendaTelefonica.Android.csproj": {
+    "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica.Android\\AgendaTelefonica.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.Android\\AgendaTelefonica.Android.csproj",
+        "projectUniqueName": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica.Android\\AgendaTelefonica.Android.csproj",
         "projectName": "AgendaTelefonica.Android",
-        "projectPath": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.Android\\AgendaTelefonica.Android.csproj",
+        "projectPath": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica.Android\\AgendaTelefonica.Android.csproj",
         "packagesPath": "C:\\Users\\Adria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.Android\\obj\\",
+        "outputPath": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj": {
-                "projectPath": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj"
+              "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj": {
+                "projectPath": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj": {
+    "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj",
+        "projectUniqueName": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj",
         "projectName": "AgendaTelefonica",
-        "projectPath": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj",
+        "projectPath": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj",
         "packagesPath": "C:\\Users\\Adria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\obj\\",
+        "outputPath": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
