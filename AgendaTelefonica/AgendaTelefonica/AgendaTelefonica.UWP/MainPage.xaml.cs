@@ -1,6 +1,4 @@
-﻿using Prism;
-using Prism.Ioc;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,6 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using AgendaTelefonica.Data;
+using ClassLibraryDb.Repository;
 
 namespace AgendaTelefonica.UWP
 {
@@ -23,15 +23,12 @@ namespace AgendaTelefonica.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new AgendaTelefonica.App(new UwpInitializer()));
-        }
-    }
+            var dbPath = Constants.DatabasePath;
 
-    public class UwpInitializer : IPlatformInitializer
-    {
-        public void RegisterTypes(IContainerRegistry containerRegistry)
-        {
-            // Register any platform specific implementations
+            var ContactRepository = new ContactRepository(dbPath);
+
+
+            LoadApplication(new AgendaTelefonica.App(ContactRepository));
         }
     }
 }

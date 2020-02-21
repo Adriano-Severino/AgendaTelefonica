@@ -1,39 +1,34 @@
-﻿using Prism;
-using Prism.Ioc;
+﻿using AgendaTelefonica.IRepository;
 using AgendaTelefonica.ViewModels;
 using AgendaTelefonica.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace AgendaTelefonica
 {
-    public partial class App
+    public partial class App : Application
     {
-        /* 
-         * The Xamarin Forms XAML Previewer in Visual Studio uses System.Activator.CreateInstance.
-         * This imposes a limitation in which the App class must have a default constructor. 
-         * App(IPlatformInitializer initializer = null) cannot be handled by the Activator.
-         */
-        public App() : this(null) { }
-
-        public App(IPlatformInitializer initializer) : base(initializer) { }
-
-        protected override async void OnInitialized()
+        public App(IContactRepository ContactRepository)
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/PrismMasterDetailPage");
+            MainPage = new Details()
+            {
+                BindingContext = new DetailsViewModel(ContactRepository)
+            };
         }
 
-        protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        protected override void OnStart()
         {
-            containerRegistry.RegisterForNavigation<NavigationPage>();
-            containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
-            containerRegistry.RegisterForNavigation<AddContact, AddContactViewModel>();
-            containerRegistry.RegisterForNavigation<PrismMasterDetailPage, PrismMasterDetailPageViewModel>();
-            containerRegistry.RegisterForNavigation<Details, DetailsViewModel>();
-            containerRegistry.RegisterForNavigation<About, AboutViewModel>();
+        }
+
+        protected override void OnSleep()
+        {
+        }
+
+        protected override void OnResume()
+        {
         }
     }
 }

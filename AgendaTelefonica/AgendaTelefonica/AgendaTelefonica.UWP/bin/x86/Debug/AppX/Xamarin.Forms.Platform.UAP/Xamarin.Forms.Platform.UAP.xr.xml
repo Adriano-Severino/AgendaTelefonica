@@ -47,13 +47,7 @@
     <RootPropertyPathName Name="DetailTitleView" />
     <RootPropertyPathName Name="TitleView" />
     <RootPropertyPathName Name="Title" />
-    <RootPropertyPathName Name="CharacterSpacing" />
-    <RootPropertyPathName Name="Content" />
     <RootPropertyPathName Name="TitleColor" />
-    <RootPropertyPathName Name="DropDownOffset" />
-    <RootPropertyPathName Name="DropDownOpenedHeight" />
-    <RootPropertyPathName Name="PlaceholderForeground" />
-    <RootPropertyPathName Name="DropDownContentMinWidth" />
     <RootPropertyPathName Name="AutomationId" />
     <RootPropertyPathName Name="IsEnabled" />
     <RootPropertyPathName Name="Text" />
@@ -154,13 +148,10 @@
       <RootProperty Name="BringIntoViewOnFocusChange" />
       <RootProperty Name="Content" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="VerticalSnapPointsType" />
-      <RootProperty Name="VerticalSnapPointsAlignment" />
       <RootProperty Name="HorizontalSnapPointsAlignment" />
       <RootProperty Name="HorizontalSnapPointsType" />
       <RootProperty Name="Template" />
+      <RootProperty Name="VerticalSnapPointsType" />
       <RootProperty Name="VerticalContentAlignment" />
       <RootMethod Name="GetHorizontalScrollBarVisibility" />
       <RootMethod Name="SetHorizontalScrollBarVisibility" />
@@ -278,7 +269,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames">
       <RootProperty Name="KeyFrames" />
-      <RootProperty Name="Duration" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.DiscreteObjectKeyFrame">
       <RootProperty Name="KeyTime" />
@@ -321,8 +311,6 @@
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="Background" />
       <RootProperty Name="Padding" />
-      <RootProperty Name="CharacterSpacing" />
-      <RootProperty Name="FlowDirection" />
       <RootProperty Name="Resources" />
       <RootProperty Name="Height" />
       <RootProperty Name="Name" />
@@ -352,7 +340,6 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="TextWrapping" />
-      <RootProperty Name="CharacterSpacing" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="IsHitTestVisible" />
       <RootProperty Name="Name" />
@@ -363,10 +350,9 @@
       <RootProperty Name="Converter" />
       <RootProperty Name="Path" />
       <RootProperty Name="Mode" />
-      <RootProperty Name="ElementName" />
       <RootProperty Name="ConverterParameter" />
-      <RootProperty Name="TargetNullValue" />
       <RootProperty Name="UpdateSourceTrigger" />
+      <RootProperty Name="ElementName" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.RelativeSource">
       <RootProperty Name="Mode" />
@@ -389,11 +375,11 @@
       <RootProperty Name="IsHitTestVisible" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Visibility" />
-      <RootProperty Name="HorizontalContentAlignment" />
-      <RootProperty Name="VerticalContentAlignment" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="ContentTemplate" />
       <RootProperty Name="ContentTransitions" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
       <RootProperty Name="DataContext" />
       <RootProperty Name="UseSystemFocusVisuals" />
       <RootProperty Name="Clip" />
@@ -478,7 +464,6 @@
       <RootProperty Name="FooterTemplate" />
       <RootProperty Name="FooterTransitions" />
       <RootProperty Name="Padding" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="RenderTransform" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsWrapGrid">
@@ -519,8 +504,6 @@
       <RootProperty Name="Opacity" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="IsHitTestVisible" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="MirroredWhenRightToLeft" />
       <RootProperty Name="UseLayoutRounding" />
@@ -529,7 +512,6 @@
       <RootProperty Name="Background" />
       <RootProperty Name="MinHeight" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Resources" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBar">
@@ -604,8 +586,6 @@
       <RootProperty Name="Pane" />
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Thickness" />
-    <RootType FullName="System.Double" />
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
       <RootProperty Name="DataContext" />
@@ -627,26 +607,6 @@
       <RootProperty Name="Content" />
       <RootProperty Name="ContentTemplate" />
     </RootType>
-    <RootType FullName="Xamarin.Forms.Platform.UWP.FormsComboBox" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
-      <RootProperty Name="HeaderTemplate" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem" />
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerUpThemeAnimation" />
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerDownThemeAnimation" />
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.SplitCloseThemeAnimation">
-      <RootProperty Name="OpenedTargetName" />
-      <RootProperty Name="ClosedTargetName" />
-      <RootProperty Name="OffsetFromCenter" />
-      <RootProperty Name="OpenedLength" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.SplitOpenThemeAnimation">
-      <RootProperty Name="OpenedTargetName" />
-      <RootProperty Name="ClosedTargetName" />
-      <RootProperty Name="OffsetFromCenter" />
-      <RootProperty Name="OpenedLength" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.CarouselPanel" />
     <RootType FullName="Xamarin.Forms.Platform.UWP.CaseConverter">
       <RootProperty Name="ConvertToUpper" />
     </RootType>
@@ -663,6 +623,7 @@
     <RootType FullName="Xamarin.Forms.Platform.UWP.KeyboardConverter" />
     <RootType FullName="Xamarin.Forms.Platform.UWP.MasterBackgroundConverter" />
     <RootType FullName="Xamarin.Forms.Platform.UWP.ImageSourceIconElementConverter" />
+    <RootType FullName="System.Double" />
     <RootType FullName="Windows.UI.Xaml.Controls.Panel">
       <RootProperty Name="Background" />
     </RootType>

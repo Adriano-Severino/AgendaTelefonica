@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj": {}
+    "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj": {}
   },
   "projects": {
-    "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj": {
+    "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj",
+        "projectUniqueName": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj",
         "projectName": "AgendaTelefonica",
-        "projectPath": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj",
+        "projectPath": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica.csproj",
         "packagesPath": "C:\\Users\\Adria\\.nuget\\packages\\",
-        "outputPath": "F:\\Desenvolvimento\\AgendaTelefonica\\AgendaTelefonica\\obj\\",
+        "outputPath": "C:\\Users\\Adria\\source\\repos\\Adriano-Severino\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\AgendaTelefonica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -48,13 +48,13 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
-            "Prism.DryIoc.Forms": {
+            "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[7.2.0.1422, )"
+              "version": "[1.3.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.4.0.991477, )"
+              "version": "[4.3.0.908675, )"
             }
           },
           "imports": [
@@ -67,7 +67,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
